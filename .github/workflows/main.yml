@@ -1,0 +1,8 @@
+name: oop workflow
+
+on: push
+
+jobs:
+    sample project:
+        runs-on: ubuntu-latest
+        run: echo "this is the start"
