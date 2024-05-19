@@ -13,3 +13,4 @@ class Student:
 
 student_1  = Student('Liam',45, 'male')
 print(student_1.name)
+print(student_1.gender)
