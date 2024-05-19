@@ -8,4 +8,9 @@ jobs:
 
     steps:
       - name: Print Start Message
-        run: python main.py
+        uses: actions/checkout@v2
+      - name: Set up python
+        uses: actions/setup-python@v2
+        with:
+            python-version: 3.10
+            run: python /home/mugah/guy/main.py
